@@ -1,11 +1,5 @@
-import { Nav } from '../Nav';
+import { Nav } from "../Nav";
 
-const Page2 = () => (
-  <div>
-    Page2
-    <hr />
-    <Nav />
-  </div>
-);
+const Page2 = () => <div>Page2</div>;
 
 export default Page2;

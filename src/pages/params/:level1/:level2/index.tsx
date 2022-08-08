@@ -1,5 +1,5 @@
-import { useMatch } from '@tanstack/react-location';
-import { Nav } from '../../../../Nav';
+import { useMatch } from "@tanstack/react-location";
+import { Nav } from "../../../../Nav";
 
 const NestedParamsPage = () => {
   const match = useMatch();
@@ -9,9 +9,6 @@ const NestedParamsPage = () => {
       <br />
 
       <code>{JSON.stringify(match.params)}</code>
-
-      <hr />
-      <Nav />
     </div>
   );
 };

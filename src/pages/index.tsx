@@ -1,14 +1,12 @@
-import { Link, Navigate, useNavigate } from '@tanstack/react-location';
-import { Nav } from '../Nav';
+import { topLayout } from "../layouts/topLayout";
+import { PageConfig } from "../route-loader";
 
 const TopPage = () => {
-  return (
-    <div>
-      Top
-      <hr />
-      <Nav />
-    </div>
-  );
+  return <div>Top</div>;
+};
+
+export const config: PageConfig = {
+  layout: topLayout,
 };
 
 export default TopPage;
